@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="fr-CA">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Commander une brochure gratuite</title>
+        <link type="text/css" rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header class="header">
+            <p class="accroche">Publication gratuite</p>
+            <h1 class="titre_principale">Commander une <span class="italique">brochure</span> gratuite</h1>
+        </header>
+        <main class="formulaire">
+            <section class="section format">
+                <h2 class="titre">Format de la brochure
+                    <img class="icon format" src="images/icon-format-brochure.svg" alt="">
+                </h2>
+                <ul class="types_format">
+                    <li class="type">Imprimé <img class="icon type" scr="images/icon-file-print.svg" alt=""></li>
+                    <li class="type">PDF <img class="icon type" scr="images/icon-file-pdf.svg" alt=""></li>
+                    <li class="type">ePub <img class="icon type" scr="images/icon-file-epub.svg" alt=""></li>
+                </ul>
+            </section>
+            <section class="section info_contact">
+                <h2 class="titre">Informations de contact
+                    <img class="icon info_contact" src="images/icon-contact.svg" alt="">
+                </h2>
+                <form>
+                    <p>
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom" id="prenom" />
+                    </p>
+                    <p>
+                        <label for="nom">Nom</label>
+                        <input type="text" name="nom" id="nom" />
+                    </p>
+                    <p>
+                        <label for="email">Courriel</label>
+                        <input type="email" name="prenom" id="courriel" />
+                    </p>
+                    <p>
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" name="phone" id="telephone" />
+                    </p>
+                </form>
+            </section>
+            <section class="section info_postal">
+                <h2 class="titre">Informations postal
+                    <img class="icon info_postal" src="images/icon-postal.svg" alt="">
+                </h2>
+                <form>
+                    <p>
+                        <label for="adresse">Adresse</label>
+                        <input type="text" name="adresse" id="adresse" />
+                    </p>
+
+                    <label for="pet-select">Pays</label>
+                    <select name="pays">
+                        <optgroup label="sélectionner">
+                            <option value="Canada">Canada</option>
+                            <option value="États-Unis">USA</option>
+                        </optgroup>
+                    </select>
+                    <label for="pet-select">Province ou état</label>
+                    <select name="province/état">
+                        <optgroup label="Canada">
+                            <option value="AB">Alberta</option>
+                            <option value="BC">British Columbia</option>
+                            <option value="QC">Quebec</option>
+                        </optgroup>
+                        <optgroup label="États-Unis">
+                            <option value="CA">California</option>
+                            <option value="NY">New York</option>
+                        </optgroup>
+                    </select>
+
+                    <p>
+                        <label for="code postal">Code postal</label>
+                        <input type="text" name="code postal" id="code postal" />
+                    </p>
+                </form>
+                <section class="section case-a-cocher">
+                <input type="checkbox" id="infolettre" name="infolettre"/>
+                <label for="infolettre">Je désire recevoir des informations mensuelles par courriel sur les nouvelles publications et ressources disponibles.</label>
+        </main>
+
+    </body>
+</html>
