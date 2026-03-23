@@ -107,6 +107,11 @@ body {
     margin: 50px;
 }
 
+
+.header {
+    background-image: url(../images/pexels-gabby-k-7794388.jpg);
+    
+}
 .accroche {
     font-family: 'DM Sans', sans-serif;
     font-size: 1.1em;
@@ -266,8 +271,7 @@ input, select {
     
 }
 button:hover {
-    color:  #e07c7c;
-    background-color: antiquewhite;
+    background-color: rgb(0, 0, 0);
 }
 
 .bouton_img {
