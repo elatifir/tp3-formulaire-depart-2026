@@ -13,11 +13,11 @@
         </header>
         <main class="formulaire">
             <section class="section format">
-                <h2 class="titre">
-                    <img class="icon format" src="images/icon-format-brochure.svg" alt="">
-                    <legend>Format de brochure</legend>
-                </h2>
                 <fieldset class="choix types_format">
+                <legend class="titre">
+                    <img class="icon format" src="images/icon-format-brochure.svg" alt="">
+                    Format de brochure
+                </legend>
                     <input
                     class="screen-reader-only" type="radio" name="format" id="format-pdf" />
                     <label for="format-pdf" class="radio-card"><img class="image" src="images/icon-file-pdf.svg">PDF</label>
@@ -33,12 +33,12 @@
                 </fieldset>
             </section>
             <section class="section info_contact">
-                <h2 class="titre">
-                    <img class="icon info_contact" src="images/icon-contact.svg" alt="">
-                    <legend>Informations de contact</legend>
-                </h2>
-                <form class="form">
-                    <fieldset class="choix">
+                <fieldset class="choix">
+                <legend class="titre">
+                    <img class="icon format" src="images/icon-contact.svg" alt="">
+                    Informations de contact
+                </legend>
+                    <form class="form">
                         <div class="row">
                             <p class="champ">
                                 <label class="champ-text" for="prenom">Prénom</label>
@@ -50,22 +50,22 @@
                             </p>
                         </div>
                         <p class="champ">
-                            <label class="champ-text" for="email">Courriel <span class="description">(exemple@domaine.com)</span></label>
+                            <label class="champ-text" for="courriel">Courriel <span class="description">(exemple@domaine.com)</span></label>
                             <input type="email" name="prenom" id="courriel" />
                         </p>
                         <p class="champ">
-                            <label class="champ-text" for="phone">Téléphone <span class="description">(514 555 0123)</span></label>
+                            <label class="champ-text" for="telephone">Téléphone <span class="description">(514 555 0123)</span></label>
                             <input type="tel" name="phone" id="telephone" />
                         </p>
-                    </fieldset>
-                </form>
+                    </form>
+                </fieldset>
             </section>
             <section class="section info_postal">
-                <h2 class="titre">
-                    <img class="icon info_postal" src="images/icon-postal.svg" alt="">
-                    <legend>Informations postal</legend>
-                </h2>
                 <fieldset class="choix">
+                <legend class="titre">
+                    <img class="icon format" src="images/icon-postal.svg" alt="">
+                    Informations postales
+                </legend>
                     <form class="form">
                     <p class="champ">
                         <label class="champ-text" for="adresse">Adresse <span class="description">(123, rue Principale)</span></label>
@@ -73,8 +73,8 @@
                     </p>
                     <div class="row">
                         <p class="champ choix">
-                            <label class="champ-text" for="select">Pays</label>
-                            <select name="pays">
+                            <label class="champ-text" for="pays">Pays</label>
+                            <select name="pays" id="pays">
                                 <optgroup label="sélectionner">
                                     <option value="Canada">Canada</option>
                                     <option value="États-Unis">USA</option>
@@ -82,8 +82,8 @@
                             </select>
                         </p>
                         <p class="champ choix">
-                            <label class="champ-text" for="select">Province ou état</label>
-                            <select name="province/état">
+                            <label class="champ-text" for="province">Province</label>
+                            <select name="province/état" id="province">
                                 <optgroup label="Canada">
                                     <option value="AB">Alberta</option>
                                     <option value="BC">British Columbia</option>
@@ -97,14 +97,15 @@
                         </p>
                     </div>
                         <p class="champ">
-                            <label class="champ-text" for="code postal">Code postal <span class="description">(A1A 1A1)</span></label>
-                            <input type="text" name="code postal" id="code postal" />
+                            <label class="champ-text" for="code-postal">Code postal <span class="description">(A1A 1A1)</span></label>
+                            <input type="text" name="code-postal" id="code-postal" />
                         </p>
                     </form>
                 </fieldset>
+            </section>
                 <section class="section case-a-cocher">
                     <input type="checkbox" id="infolettre" name="infolettre"/>
-                    <label for="infolettre"><p class="text_checkbox">Je désire recevoir des informations mensuelles par courriel sur les nouvelles publications et ressources disponibles.</p></label>
+                    <label for="infolettre">Je désire recevoir des informations mensuelles par courriel sur les nouvelles publications et ressources disponibles.</label>
                 </section>
                 <button class="bouton" name="btnCommander" value="Commander">Commander <img class="bouton_img" src="images/icon-arrow.svg" alt="Commander" /></button>
         </main>
