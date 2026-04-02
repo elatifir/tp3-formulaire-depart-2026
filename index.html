@@ -39,24 +39,29 @@
                     Informations de contact
                 </legend>
                     <form class="form">
-                        <div class="row">
+                        <div class="row ctnValidation">
                             <p class="champ">
                                 <label class="champ-text" for="prenom">Prénom</label>
-                                <input type="text" name="prenom" id="prenom" />
+                                <input type="text" name="prenom" id="prenom" required />
+                                <p class="erreur"></p>
                             </p>
                             <p class="champ">
                                 <label class="champ-text" for="nom">Nom</label>
-                                <input type="text" name="nom" id="nom" />
+                                <input type="text" name="nom" id="nom" required/>
+                                <p class="erreur"></p>
                             </p>
                         </div>
-                        <p class="champ">
+                        
+                        <div class="champ ctnValidation">
                             <label class="champ-text" for="courriel">Courriel <span class="description">(exemple@domaine.com)</span></label>
-                            <input type="email" name="prenom" id="courriel" />
-                        </p>
-                        <p class="champ">
+                            <input type="email" name="prenom" id="courriel" required/>
+                            <p class="erreur"></p>
+                        </div>
+                        <div class="champ ctnValidation">
                             <label class="champ-text" for="telephone">Téléphone <span class="description">(514 555 0123)</span></label>
-                            <input type="tel" name="phone" id="telephone" />
-                        </p>
+                            <input type="tel" name="phone" id="telephone" required/>
+                            <p class="erreur"></p>
+                        </div>
                     </form>
                 </fieldset>
             </section>
@@ -67,11 +72,12 @@
                     Informations postales
                 </legend>
                     <form class="form">
-                    <p class="champ">
+                    <div class="champ ctnValidation">
                         <label class="champ-text" for="adresse">Adresse <span class="description">(123, rue Principale)</span></label>
-                        <input type="text" name="adresse" id="adresse" />
-                    </p>
-                    <div class="row">
+                        <input type="text" name="adresse" id="adresse" required/>
+                        <p class="erreur"></p>
+                    </div>
+                    <div class="row ctnValidation">
                         <p class="champ choix">
                             <label class="champ-text" for="pays">Pays</label>
                             <select name="pays" id="pays">
@@ -96,10 +102,10 @@
                             </select>
                         </p>
                     </div>
-                        <p class="champ">
-                            <label class="champ-text" for="code-postal">Code postal <span class="description">(A1A 1A1)</span></label>
-                            <input type="text" name="code-postal" id="code-postal" />
-                        </p>
+                    <div class="champ">
+                        <label class="champ-text" for="code-postal">Code postal <span class="description">(A1A 1A1)</span></label>
+                        <input type="text" name="code-postal" id="code-postal" required/>
+                    </div>
                     </form>
                 </fieldset>
             </section>

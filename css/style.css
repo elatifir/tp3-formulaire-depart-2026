@@ -26,9 +26,9 @@
 /* ------- Variables ------- */
 :root {
     /* Couleurs */
-    --couleur-primaire: ?;
-    --couleur-secondaire: ?;
-    --couleur-tertiaire: ?;
+    --couleur-primaire: #0000;
+    --couleur-secondaire: #7d1717;
+    --couleur-tertiaire: rgb(203, 173, 173);
 }
 
 /* ------- Styles de base ------- */
@@ -103,7 +103,7 @@ img {
 }
 
 body {
-    background-color: rgb(203, 173, 190);
+    background-color: rgb(203, 173, 173);
     background-repeat: no-repeat;
     background-size: 100%;
     
@@ -167,7 +167,7 @@ body {
     margin-right: 10px;
     width: 50px;
     padding: 6px;
-    background-color: #e07c7c;
+    background-color: #7d1717;
     border-radius: 7px;
     
 }
@@ -256,7 +256,7 @@ body {
 }
 
 .screen-reader-only:checked + .radio-card {
-  border: 3px solid #e07c7c;
+  border: 3px solid #7d1717;
 }
 
 
@@ -298,7 +298,7 @@ input, select {
 .bouton {
     color: #ffffff;
     margin-top:25px;
-    background-color: #e07c7c;
+    background-color: #7d1717;
     padding: 10px;
     border-radius: 7px;
     width:30%;

@@ -46,42 +46,47 @@ Exemple pour le cas d'un seul élément :
 </div>
 ```
 
-#### Ma note d'autoévaluation pour le critère HTML : 85 %
+#### Ma note d'autoévaluation pour le critère HTML : 5
 
 ### CSS (6 points)
 
 - [x] **Mobile first** — Règles pour l'écran étroit écrites en premier ; requêtes média imbriquées pour obtenir tout de suite après dans la CSS les variantes pour l'écran large.
-- [ ] **Styles de base** — Champs de saisie alignés. La variante pour l'écran large doit être enrichie par rapport à la version de l'écran étroit.
+- [x] **Styles de base** — Champs de saisie alignés. La variante pour l'écran large doit être enrichie par rapport à la version de l'écran étroit.
 - [ ] **Variables CSS** — Au moins deux variables CSS utilisées pour les couleurs.
 - [ ] **Documentation** — Commentaires dans la CSS et table des matières maintenue en tête de fichier.
 - [x] **Interactivité** — Lorsqu'un élément de formulaire reçoit le focus, son apparence doit changer pour le mettre en évidence. Le bouton de soumission et les hyperliens doivent avoir des états survol.
 - [x] **Boutons radio** — Boutons radio visuellement cachés mais accessibles. Ce sont leurs étiquettes qui affichent les états normal, focus, hover et checked.
 
-#### Ma note d'autoévaluation pour le critère CSS : 75 %
+#### Ma note d'autoévaluation pour le critère CSS : 4
 
 ### Accessibilité (4 points)
 
 - [x] **Navigation au clavier** — Tab parcourt le formulaire dans le bon ordre. Enter soumet le formulaire.
 - [ ] **Lien « Allez au contenu »** — Lien tout de suite après l'ouverture du `body`, permettant d'aller directement au contenu principal. Classes `screen-reader-only` et `focusable`.
 - [x] **Régions (landmarks)** — Utiliser les éléments HTML appropriés (`header`, `main`, `footer`) ou, si ce n'est pas possible, leur attribuer les rôles ARIA correspondants (`banner`, `main`, `contentinfo`).
-- [ ] **Contraste des couleurs** — Changez les couleurs de bases fournies dans la maquettes pour des couleurs personnalisées et ajoutez, en commentaire de la feuille de styles, le niveau de contraste entre les couleurs utilisées et les tests réussis avec l'outil [TPGi Color Contrast Checker](https://www.tpgi.com/color-contrast-checker/).
+- [x] **Contraste des couleurs** — Changez les couleurs de bases fournies dans la maquettes pour des couleurs personnalisées et ajoutez, en commentaire de la feuille de styles, le niveau de contraste entre les couleurs utilisées et les tests réussis avec l'outil ![TPGi Color Contrast Checker](/images/Capture%20d’écran%202026-04-01%20à%2023.05.42.png).
 
-#### Ma note d'autoévaluation pour le critère Accessibilité : Z
+#### Ma note d'autoévaluation pour le critère Accessibilité : 3
 
 ### JavaScript (sera évalué dans le cours de programmation)
 
 - [ ] Vérifier que les champs de saisie ne sont pas vides ; afficher un message d'erreur
 - [ ] Vérifier que les données sont conformes au type attendu ; afficher un message d'erreur
 
-#### Ma note d'autoévaluation pour le critère JavaScript : Z
+#### Ma note d'autoévaluation pour le critère JavaScript : 0
 
 ---
 
 **TOTAL**
-X sur 15
+12 sur 15
 
 ---
 
 ## Ajoutez vos commentaires sur le projet. Comment ça s'est passé? Quels aspects avez-vous trouvé facile ou difficile?
-
+### Ce que j'ai trouvé facile:
+- Créer la structure du site (header, nav, main, section, footer). J’ai bien compris comment organiser les différentes parties d’une page web.
+- Choisir un contraste de couleur accessible, appliquer des polices avec font-family, ajuster les marges et paddings
+- Ajouter une petite touche de couleur avec <span class="mot-colore"\> 
+### Ce que j'ai trouvé difficile:
+- 
 ## Ma note d'autoévaluation pour le projet entier : Z
